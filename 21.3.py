@@ -1,8 +1,15 @@
+#!/usr/bin/env python3
+# -*- config: utf-8 -*-
+
 from pydoc import text
 from tkinter import *
 from tkinter import filedialog as fd
 from tkinter import messagebox as mb
 
+
+# измените программу из п. 9 так, чтобы открытие и сохранение файлов
+# выполнялось не через экземпляры Button , а через Menu . Команду очистки текстового поля
+# поместите в контекстное меню.
 
 def del_text():
     answer = mb.askokcancel('Удаление текста', 'Реально удалить?')

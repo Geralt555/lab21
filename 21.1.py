@@ -1,3 +1,8 @@
+#!/usr/bin/env python3
+# -*- config: utf-8 -*-
+
+# Перепрограммируйте второе окно из п. 7, используя метод grid
+
 from tkinter import *
 
 root = Tk()
